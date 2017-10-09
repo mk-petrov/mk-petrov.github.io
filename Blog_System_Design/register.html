@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My blog</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- <script src="https://unpkg.com/popper.js"></script> -->
+    <script src="scripts\jquery-1.10.2.js"></script>
+    <script src="scripts\bootstrap.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">My Blog System</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container body-content span=8 offset=2">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>
+                        Register
+                    </legend>
+
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <label class="control-label pull-right" for="inputEmail">Email</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <label class="control-label pull-right" for="fullName">Full Name</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="fullName" placeholder="Full Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <label class="control-label pull-right" for="password">Password</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="password" class="form-control" id="password" placeholder="Pasword">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <label class="control-label pull-right" for="passwordConfirm">Confirm Password</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="password" class="form-control" id="passwordConfirm" placeholder="Confirm Pasword">
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <div class="col-md-4 col-md-offset-4">
+                            <button type="reset" class="btn btn-default">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+                    </div>
+                    <!-- <div class="pull-right">
+                        <a href="index.html" class="btn btn-default btn-xs">Back &raquo;</a>
+                    </div> -->
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer navbar-fixed-bottom">
+            <div class="container text-center">
+                <p>&copy; My Blog System 2017</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
