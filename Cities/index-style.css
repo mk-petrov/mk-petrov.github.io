@@ -1,0 +1,122 @@
+body {
+	background-image: url("img/1464712.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 87.5%;
+	line-height: 1.5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#Container {
+	width: 805px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11px;
+	overflow: hidden;
+	
+}
+#Header {
+	height: 150px;
+	background-color: #000000;
+	opacity: 0.7;
+	color: #fff;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+	border-radius: 60px 0px 0px 0px;
+	-moz-border-radius: 60px 0px 0px 0px;
+    -webkit-border-radius: 60px 0px 0px 0px;
+
+}
+#Menu {
+	height: 65px;
+	background-color: #B40431;
+	opacity: 0.9;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+ul li {
+	float: left;
+	padding: 0 0 0 80px;
+	
+
+}
+ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 16px;
+	font-size: 22px;
+	font-family: 'Indie Flower', cursive;
+	border-radius: 70%;
+}
+a:hover {
+	background-color: #fff;
+	color: black;
+	
+}
+#SideBar {
+	width: 150px;
+	background-color: #B40431;
+	float: left;
+	padding-left: 5px;
+	padding-bottom: 5000px;
+	margin-bottom: -5000px;
+	opacity: 0.9;
+
+}
+#MainBody {
+    width: 650px;
+    height: auto;
+    background-color: black;
+	opacity: 0.95;
+	color: #fff;
+    float: right;
+}
+h1, h2, h3 {
+	padding-left: 15px;
+	font-family: 'Fjalla One', sans-serif; 
+}
+div.city {
+	background-color: black;
+	padding: 20px;
+	text-indent: 35px;
+	border: 1px solid #B40431;
+	text-align: justify;
+	font-family: Arial, 'Lucida Sans Unicode';
+	 
+}
+div.Famous{
+	background-color: black;
+	padding: 10px;
+	
+	border-left: 1px solid #B40431;
+	border-right: 1px solid #B40431;
+	text-align: center;
+}
+#Footer {
+	height: 100px;
+	clear: both;
+	margin-bottom: 21px;
+	background-color: #B40431;
+	opacity: 0.9;
+	margin: 0;
+	padding: 45px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Fjalla One', sans-serif;
+	border-radius: 0px 0px 60px 0px;
+	-moz-border-radius: 0px 0px 60px 0px;
+    -webkit-border-radius: 0px 0px 60px 0px;
+
+}
