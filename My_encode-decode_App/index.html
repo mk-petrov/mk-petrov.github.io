@@ -14,20 +14,28 @@
             width: 50%;
             background-color: #7aa2f4;
         }
+        span {
+            padding: 7px;
+            border: solid rgb(54, 255, 47) 2px;
+            background-color: #fff;
+            display: none;
+            margin-left: 12em;
+            font-size: 20px;
+        }
     </style>
 </head>
-<body>
+<body onload="solve()">
     <div>
         <h1>Encode Field:</h1>
         <label for="encode">Encode: </label><input type="text" id="encode">
-        <button onclick="encode()">Encode..</button>        
+        <button id="btnEncode">Encode..</button>        
         <textarea name="noname" id="textArea" cols="120" rows="12"></textarea>
     </div>
     <div>
         <h1>Decode Field:</h1>
         
         <textarea name="noname" id="textAreaDecode" cols="120" rows="12"></textarea><br>
-        <button onclick="decode()">Decode..</button> <span id="decodingResult"></span>   
+        <button id="btnDecode">Decode..</button> <span id="decodingResult"></span>   
     </div>
     <script src="./app.js"></script>
 </body>
