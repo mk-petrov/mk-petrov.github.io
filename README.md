@@ -1,2 +1,2 @@
 # mk-petrov.github.io
-simple blog system design
+some simple projects
