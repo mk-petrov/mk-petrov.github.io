@@ -1,0 +1,16 @@
+{
+  "name": "booklibrary",
+  "version": "1.0.0",
+  "description": "Simple booklibrary SPA, no frameworks used",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "booklibrary",
+    "SPA",
+    "no frameworks"
+  ],
+  "author": "PP",
+  "license": "MIT"
+}
